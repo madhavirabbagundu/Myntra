@@ -2,13 +2,14 @@
   text-align: center;
 }
 .navbar{
-  border:1px solid rgb(246, 86, 182);
+  /* border:1px solid rgb(246, 86, 182); */
   margin:auto;
   margin-top:10px;
   display:flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 2%;
   width:100%;
+  margin-bottom:1%;
 }
 
 .navitems{
@@ -51,10 +52,68 @@ margin-top: 1%;;
 .item{
   width:100%;
 }
+.item2{
+  width:50%;
+
+}
+.item3{
+  width:45%;
+  /* border: 1px solid black;; */
+  margin:auto;
+
+}
+.item1{
+  /* width:50%; */
+  /* border: 1px solid black;; */
+  display: flex;
+}
+.loginContainer{
+  background-color: rgb(244, 213, 218);
+  margin:auto;
+  height:100%;
+  padding:5%;
+  /* border: 1px solid black;; */
+}
+.loginPart{
+  /* border:1px solid rgb(217, 31, 31);  */
+  width:30%;
+  margin:auto;
+  margin-top:2%;
+  margin-bottom:2%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  background-color: white;;
+
+
+}
+.Para{
+  font-size: 13PX;;
+  color:rgba(40,44,63,.8);
+}
+.inputForms{
+  border:rgba(40,44,63,.8);;
+  /* height:10%; */
+}
+.loginPart2{
+  color:#ff3c6f;
+  font-size:"14px"
+}
+.continueButton{
+  cursor: pointer;
+  background-color: #ff3f6c;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  width:60%;
+  border:none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
