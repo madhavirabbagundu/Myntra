@@ -4,6 +4,7 @@ function Men(){
 return (
     <>
     This is the Men section
+    
     </>
 )
 }

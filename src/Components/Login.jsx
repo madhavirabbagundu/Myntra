@@ -1,7 +1,10 @@
 import React from "react";
+import {useNavigate} from "react-router-dom"
 
 
 function Login(){
+    const navigate = useNavigate(); 
+
     const [input,setInput] = React.useState({
         number:""
 
@@ -20,10 +23,10 @@ function Login(){
       },[])
 
     const handleSubmit = (e)=>{
-        console.log(e.target,"target")
       e.preventDefault()
-      setInputStore(input.length)
-
+      if(input.number.length === 10){
+         alert("Login successfully")
+         navigate("/")
         fetch(`http://localhost:3000/loginData`,{
             method:"POST",
             body:JSON.stringify(input),
@@ -35,14 +38,10 @@ function Login(){
         .then((res)=>res.json())
         .then((json)=>console.log(json,"effect"))
       }
-    
-     
-    //   if(input.length === 10){
-    //     alert("Login successfully")
-    //   }
-    //   else{
-    //     alert("Choose your Number")
-    //   }
+      else{
+        alert("Choose your number")
+      }
+    }
     
     const {number} = input;
     return (
