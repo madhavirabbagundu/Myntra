@@ -42,7 +42,7 @@ function Login(){
         alert("Choose your number")
       }
     }
-    
+    console.log(inputstore)
     const {number} = input;
     return (
         <>
@@ -63,7 +63,7 @@ function Login(){
 
             {/* <div class="form-row"> */}
     <div >
-      <input className = "inputForms" style = {{width:"60%",padding:"2%"}} 
+      <input className = "inputForms" style = {{width:"100%",padding:"2%"}} 
       type="number" 
       class="form-control" 
       placeholder="Enter your mobile number"
