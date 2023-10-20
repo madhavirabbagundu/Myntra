@@ -112,21 +112,36 @@ margin-top: 1%;;
   border:none;
 }
 .menContainer{
-  border:1px solid black;
+  /* border:1px solid black;/ */
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   padding:1%;
+  width:80%;
+  margin:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 .menContainer > div{
-  border:1px solid black;
-  padding:1%;
+  /* border:1px solid black; */
+  width:70%;
+  margin:auto;
+border-radius:2%;
+  padding:5%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .menContainerData{
-  margin:1%;
+  /* width:50%; */
+  margin:auto;
+  /* border: 1px solid rgb(22, 235, 107); */
 }
+.content{
+  text-align: center;
+  /* border: 1px solid rgb(161, 15, 15);; */
+
+}
+
 .menPhoto{
-  width:50%;
+  width:100%;
 }
 .App-logo {
   height: 40vmin;

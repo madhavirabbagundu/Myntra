@@ -15,8 +15,11 @@ return (
       {
         menData.map((item)=>(
             <div className = "menContainerData"key = {item.id}>
+                <div className='content'>
                 <img className='menPhoto' src = {item.image} alt = ""/>
                 <h4>{item.brand}</h4>
+                <p>{item.name}</p>
+                </div>
             </div>
         ))
       }
