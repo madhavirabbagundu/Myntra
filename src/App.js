@@ -20,7 +20,7 @@ function App() {
       <Route path = "/Women" element = {<Women />}>Women</Route>
       <Route path = "/Kids" element = {<Kids />}>Kids</Route>
       <Route path = "/Login" element={<Login/>}></Route>
-      <Route path = "/Cart" element={<Cart />}></Route>
+      <Route path = "/Cart/:item" element={<Cart />}></Route>
      </Routes>
     
     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Men(){
     const [menData,setMenData] = React.useState([])
@@ -12,9 +13,7 @@ function Men(){
     },[])
     console.log(menData,"men")
 
-    // const handleHighToLow = ()=>{
-    //     setHighToLow(HighToLow)
-    // }
+   
     const handleChangeHigh = (e)=>{
         console.log(e,menData,"data")
         if(e.target.value === "HighToLow"){
@@ -58,14 +57,16 @@ return (
    
    {
         menData.map((item)=>(
-            <div className = "menContainerData"key = {item.id}>
+       <div className = "menContainerData"key = {item.id}>
                 <div className='content'>
-                <img className='menPhoto' src = {item.image} alt = ""/>
-                <h4>{item.brand}</h4>
-                <p>{item.name}</p>
-                <h4 style = {{color:'red'}}>RS:{item.price}</h4>
+                <Link to = {`/Cart/${item.id}`}><img className='menPhoto' src = {item.image} alt = ""/></Link>
+                <h4 className='names'>{item.brand}</h4>
+                <p className='names'>{item.name}</p>
+                <h4 className='names' style = {{color:'red'}}> RS:{item.price}</h4>
+                
                 </div>
             </div>
+           
         ))
         
 

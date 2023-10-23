@@ -134,5 +134,121 @@
       "name": "Slim fit casual shirt",
       "price": 1345
     }
+  ],
+  "Womens":[
+    {
+      "id": 0,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22788870/2023/4/15/d5604723-1aa7-45d3-8826-232b4451632e1681552420701WomensWovenDesignEmbroideredCottonBlendStraightKurtawithPant1.jpg",
+      "name": "Men simple fit casual shirt",
+      "price": 600
+    },
+    {
+      "id": 1,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23578310/2023/6/9/18c47f68-a382-46ce-b4e3-47a44f2f089c1686299492762IndoEraLavenderEmbroideredA-LineKurtaTrousersWithDupattaSet1.jpg",
+      "name": "cotton linen casual shirt",
+      "price": 730
+    },
+    {
+      "id": 2,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23717116/2023/7/6/a0381935-7ca4-4469-ad3d-e2075868a6351688643039218-KALINI-Ethnic-Motifs-Printed-Kurta-With-Trousers--Dupatta-31-11.jpg",
+      "name": "Men regular linen casual shirt",
+      "price": 900
+    },
+    {
+      "id": 3,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22389450/2023/3/17/5b57f6f2-752c-49b8-8812-9091e705c0f21678998755039AASKPurplePuffSleeveCrepeFitFlareDress1.jpg",
+      "name": "Printed casual cotton shirts",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22536176/2023/3/28/a42e89de-df91-4eca-9cb0-dd715862897f1679995217167kaliniPurpleSilkBlendEthnicWovenDesignFestiveSareewithMatchi1.jpg",
+      "name": "Cotton checked casual shirts",
+      "price": 6534
+    },
+    {
+      "id": 5,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22119454/2023/2/24/acd2411d-f8a9-47f7-8829-0e0fe406d9181677258058107SequinsSareewithBlouse1.jpg",
+      "name": "Men Regular casual shirts",
+      "price": 1456
+    },
+    {
+      "id": 6,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22536178/2023/3/28/060630ba-0cb0-46f5-ab19-59a0d7502af41679989291511KALINIMaroonBlueWovenDesignZariPureSilkKanjeevaramSaree1.jpg",
+      "name": "slim fit casual shirts",
+      "price": 1000
+    },
+    {
+      "id": 7,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24282074/2023/8/1/6491cfcd-9cee-400a-993b-1de6d88fc26a1690830395332SangriaFloralPrintedCottonA-LineDress1.jpg",
+      "name": "textures slim fit causual shirt",
+      "price": 420
+    },
+    {
+      "id": 8,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23720492/2023/6/22/5e525c54-e1ec-4b40-ba9a-c852902824371687414956781MomLooseFitUltraHighAnkleJeans1.jpg",
+      "name": "pure cotton causual shirt",
+      "price": 896
+    },
+    {
+      "id": 9,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23439082/2023/9/7/270064fa-081e-4914-810a-c7ea522f12ba1694070234046-DressBerry-Women-Jeans-3641694070233445-1.jpg",
+      "name": "Tailored fit casual shirt",
+      "price": 456
+    },
+    {
+      "id": 10,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23523622/2023/6/5/4d0711dd-eba0-4a18-8421-1350b7b36b101685938691961SangriaWomensPinkWhiteYokeThreadWorkKurtawithTrousersDupatta1.jpg",
+      "name": "Reversible check causal shirt",
+      "price": 7865
+    },
+    {
+      "id": 11,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16712782/2022/4/14/2afbbc41-329f-4850-8aee-00dccdf641851649922896889-Indo-Era-Solid-Wine-Straight-Kurta-Palazzo-With-Dupatta-Set--1.jpg",
+      "name": "Printed cotton casual shirt",
+      "price": 1234
+    },
+    {
+      "id": 12,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24392686/2023/8/8/2c934857-26a6-487f-a700-eb71b36282f81691437263946AnoukMauveGeorgetteEthnicEmbellishedFestiveSareewithMatching1.jpg",
+      "name": "pure cotton causual shirt",
+      "price": 590
+    },
+    {
+      "id": 13,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23636780/2023/6/14/f354bc7d-061d-4835-9fbb-7e787fff5b3f1686760280912KALINISeaGreenPinkWovenDesignZariSilkCottonIkatSaree1.jpg",
+      "name": "Green slim fit causual shirt",
+      "price": 400
+    },
+    {
+      "id": 14,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16846726/2022/2/3/d81c0838-9a5f-45a4-a93f-4163e6f9548c1643867893380SatinEmbroideryWorkSaree1.jpg",
+      "name": "Plus size cotton size",
+      "price": 2000
+    },
+    {
+      "id": 15,
+      "brand": "",
+      "image": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/23872578/2023/7/4/d39d06ae-7d5b-474b-842d-6936cb66d2d81688474499667KALINIWomenPinkPrintedRegularKurtawithTrousersWithDupatta1.jpg",
+      "name": "Slim fit casual shirt",
+      "price": 1345
+    }  
+    
   ]
 }
+
