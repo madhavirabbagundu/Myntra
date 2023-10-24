@@ -34,7 +34,16 @@
       "brand": "Roaster",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22547618/2023/4/4/1efd237a-b32d-4aad-8953-00ee8afbdf101680608437126-Roadster-Men-Tshirts-6241680608436697-1.jpg",
       "name": "cotton linen casual shirt",
-      "price": 730
+      "price": 730,
+      "subImages":[
+         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/7f230a96-d156-4937-a1d0-b468d06da0561684300776603-Roadster-Men-Tshirts-6751684300776261-5.jpg",
+        "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/5d32b22e-168c-41fd-890c-b381386e0ec11684300776626-Roadster-Men-Tshirts-6751684300776261-3.jpg",
+       
+         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/e270c612-b272-43c8-afab-2ff03f40e71c1684300776647-Roadster-Men-Tshirts-6751684300776261-1.jpg",
+        
+         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/92222691-c8f5-4317-b4e9-ed1f91a8d8dc1684300776636-Roadster-Men-Tshirts-6751684300776261-2.jpg"
+        
+    ]
     },
     {
       "id": 2,
