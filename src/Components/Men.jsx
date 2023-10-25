@@ -11,7 +11,7 @@ function Men(){
         .then((res)=>res.json())
         .then((json)=>setMenData(json))
     },[])
-    console.log(menData,"men")
+    console.log(typeof(menData),"men")
 
    
     const handleChangeHigh = (e)=>{

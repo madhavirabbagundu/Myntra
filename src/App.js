@@ -8,6 +8,7 @@ import { Navbar } from './Components/Navbar';
 import {Home }from './Components/Home'
 import {Login}from './Components/Login'
 import {Cart} from './Components/Cart'
+import { PaymentPage } from './Components/PaymentPage';
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path = "/Kids" element = {<Kids />}>Kids</Route>
       <Route path = "/Login" element={<Login/>}></Route>
       <Route path = "/Cart/:item" element={<Cart />}></Route>
+      <Route path = "/payment" element = {<PaymentPage />}></Route>
      </Routes>
     
     </div>

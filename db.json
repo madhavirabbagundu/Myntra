@@ -27,7 +27,8 @@
       "brand": "Roaster",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2318578/2018/2/22/11519295861125-Roadster-Men-Navy-Blue-Striped-Round-Neck-T-shirt-171519295860974-1.jpg",
       "name": "Men simple fit casual shirt",
-      "price": 600
+      "price": 600,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/722/small/5-star-rating-review-star-transparent-free-png.png"
     },
     {
       "id": 1,
@@ -35,12 +36,11 @@
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22547618/2023/4/4/1efd237a-b32d-4aad-8953-00ee8afbdf101680608437126-Roadster-Men-Tshirts-6241680608436697-1.jpg",
       "name": "cotton linen casual shirt",
       "price": 730,
+      "rating":"data:image/png;base64,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",
       "subImages":[
          "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/7f230a96-d156-4937-a1d0-b468d06da0561684300776603-Roadster-Men-Tshirts-6751684300776261-5.jpg",
         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/5d32b22e-168c-41fd-890c-b381386e0ec11684300776626-Roadster-Men-Tshirts-6751684300776261-3.jpg",
-       
-         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/e270c612-b272-43c8-afab-2ff03f40e71c1684300776647-Roadster-Men-Tshirts-6751684300776261-1.jpg",
-        
+         "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/e270c612-b272-43c8-afab-2ff03f40e71c1684300776647-Roadster-Men-Tshirts-6751684300776261-1.jpg", 
          "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23019446/2023/5/17/92222691-c8f5-4317-b4e9-ed1f91a8d8dc1684300776636-Roadster-Men-Tshirts-6751684300776261-2.jpg"
         
     ]
@@ -50,98 +50,122 @@
       "brand": "AIDAS",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11462796/2020/3/2/f685f53f-8f8f-4350-a6f3-e6996433e5821583146701540-Roadster-Men-White--Navy-Blue-Striped-Polo-Collar-T-shirt-72-1.jpg",
       "name": "Men regular linen casual shirt",
-      "price": 900
+      "price": 900,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
     },
     {
       "id": 3,
       "brand": "BULLMER",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11278632/2020/1/31/c160e608-8eb5-4f5c-98da-9f71d34b74e01580443927749-Roadster-Men-Tshirts-9961580443926160-1.jpg",
       "name": "Printed casual cotton shirts",
-      "price": 500
+      "price": 500,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/722/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 4,
       "brand": "PUMA",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2303687/2018/2/12/11518434543989-Roadster-Men-Navy-Blue-Solid-Polo-Collar-T-shirt-2181518434543785-1.jpg",
       "name": "Cotton checked casual shirts",
-      "price": 6534
+      "price": 6534,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 5,
       "brand": "LEVIS",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2275604/2018/5/23/a732597e-321f-4eb3-b888-b7125032ebaf1527072606689-Roadster-Pack-of-3-T-shirts-5551527072605064-1.jpg",
       "name": "Men Regular casual shirts",
-      "price": 1456
+      "price": 1456,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
     },
     {
       "id": 6,
       "brand": "WRONG",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22610104/2023/4/7/d3447aaf-035e-4377-8976-a7771d48edc21680849569659-Roadster-Men-Tshirts-5241680849569178-1.jpg",
       "name": "slim fit casual shirts",
-      "price": 1000
+      "price": 1000,
+      "rating":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6K9cTpgAzrwk2_d-mMpsPGTFTvte7sAtct1tHaCIsXyF6mrQIxwvjSMFkd4CEcU7snzQ&usqp=CAU"
     },
     {
       "id": 7,
       "brand": "LUX NITRO",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23853750/2023/7/11/3a37c56a-77f2-4aa7-a21b-d12489e0d0081689057501739-Roadster-Men-Tshirts-5341689057501426-1.jpg",
       "name": "textures slim fit causual shirt",
-      "price": 420
+      "price": 420,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 8,
       "brand": "NIKE",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2304056/2018/3/12/11520858250423-Roadster-Men-Yellow-Solid-Polo-Collar-T-shirt-9871520858250189-1.jpg",
       "name": "pure cotton causual shirt",
-      "price": 896
+      "price": 896,
+      "rating":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6K9cTpgAzrwk2_d-mMpsPGTFTvte7sAtct1tHaCIsXyF6mrQIxwvjSMFkd4CEcU7snzQ&usqp=CAU"
+
     },
     {
       "id": 9,
       "brand": "H & M",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2275365/2022/11/22/a3af8a2f-a385-4cb7-bf7b-e34e0925fe0d1669105782439-Roadster-Men-White--Pure-Cotton-T-shirt-7301669105781913-1.jpg",
       "name": "Tailored fit casual shirt",
-      "price": 456
+      "price": 456,
+      "rating":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6K9cTpgAzrwk2_d-mMpsPGTFTvte7sAtct1tHaCIsXyF6mrQIxwvjSMFkd4CEcU7snzQ&usqp=CAU"
+
     },
     {
       "id": 10,
       "brand": "Roaster",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11278632/2020/1/31/c160e608-8eb5-4f5c-98da-9f71d34b74e01580443927749-Roadster-Men-Tshirts-9961580443926160-1.jpg",
       "name": "Reversible check causal shirt",
-      "price": 7865
+      "price": 7865,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 11,
       "brand": "KALT",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22547618/2023/4/4/1efd237a-b32d-4aad-8953-00ee8afbdf101680608437126-Roadster-Men-Tshirts-6241680608436697-1.jpg",
       "name": "Printed cotton casual shirt",
-      "price": 1234
+      "price": 1234,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/722/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 12,
       "brand": "KOOK",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2318578/2018/2/22/11519295861125-Roadster-Men-Navy-Blue-Striped-Round-Neck-T-shirt-171519295860974-1.jpg",
       "name": "pure cotton causual shirt",
-      "price": 590
+      "price": 590,
+      "rating":"https://png.pngtree.com/png-vector/20220715/ourmid/pngtree-five-star-rating-sign-transparent-png-image_5943820.png"
     },
     {
       "id": 13,
       "brand": "RARE",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22547618/2023/4/4/1efd237a-b32d-4aad-8953-00ee8afbdf101680608437126-Roadster-Men-Tshirts-6241680608436697-1.jpg",
       "name": "Green slim fit causual shirt",
-      "price": 400
+      "price": 400,
+      "rating":"https://static.vecteezy.com/system/resources/thumbnails/009/663/930/small/5-star-rating-review-star-transparent-free-png.png"
+
     },
     {
       "id": 14,
       "brand": "ADIDAS",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2304056/2018/3/12/11520858250423-Roadster-Men-Yellow-Solid-Polo-Collar-T-shirt-9871520858250189-1.jpg",
       "name": "Plus size cotton size",
-      "price": 2000
+      "price": 2000,
+      "rating":"https://png.pngtree.com/png-vector/20220715/ourmid/pngtree-five-star-rating-sign-transparent-png-image_5943820.png"
+
     },
     {
       "id": 15,
       "brand": "BULLMER",
       "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11278632/2020/1/31/c160e608-8eb5-4f5c-98da-9f71d34b74e01580443927749-Roadster-Men-Tshirts-9961580443926160-1.jpg",
       "name": "Slim fit casual shirt",
-      "price": 1345
+      "price": 1345,
+      "rating":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6K9cTpgAzrwk2_d-mMpsPGTFTvte7sAtct1tHaCIsXyF6mrQIxwvjSMFkd4CEcU7snzQ&usqp=CAU"
+
     }
   ],
   "Womens":[

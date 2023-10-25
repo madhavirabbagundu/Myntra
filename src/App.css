@@ -91,7 +91,12 @@ margin-top: 1%;;
   color:rgba(40,44,63,.8);
 }
 .inputForms{
-  border:rgba(40,44,63,.8);;
+  border:rgba(40,44,63,.8);
+  width:100%;
+  /* height:10%; */
+}
+.inputForms1{
+  border:rgba(40,44,63,.8);
   width:100%;
   /* height:10%; */
 }
@@ -109,7 +114,20 @@ margin-top: 1%;;
   font-size: 14px;
   line-height: 16px;
   width:100%;
-  border:none;
+  /* border:none; */
+}
+.continueButton1{
+  cursor: pointer;
+  background-color: #ff3f6c;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top:3%;
+  width:100%;
+  /* border:none; */
 }
 .menContainer{
   /* border:1px solid black;/ */
@@ -163,16 +181,87 @@ border-radius:2%;
   text-decoration: none;
 }
 .cartImage{
-  width:40%;
-  border-radius: 3%;
+  width:100%;
+  border-radius: 4%;
+  /* margin:auto; */
+  /* border:1px solid black; */
+  /* margin-top:-5%; */
+
+}
+.rateImage{
+  width:30%;
+  border-radius: 50%;;
 
 }
 .cartContainer{
   width:50%;
   margin:auto;
-  border:1px solid black;
-  background-color: azure;
+  /* border:1px solid black; */
+  border-radius: 5%;
+  background-color: rgb(213, 237, 237);
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
   padding:3%;
+
+ 
+}
+.cartContainer > div{
+  border:4px solid rgb(96, 24, 230);
+  border-radius: 10%;
+  padding:3%;
+
+}
+.sizes{
+  /* border:1px solid black; */
+  margin:auto
+}
+.sizes1{
+  /* border:1px solid black; */
+  padding:4%;
+  margin:2%;
+  border-radius:35%;
+  /* margin:auto; */
+}
+.sizeName{
+  color:#3726f0;
+  font-family: system-ui
+}
+.productName{
+  text-decoration-color: #3726f0;
+  color:#21e916;
+  text-underline-position: below;
+}
+.size{
+  font-size: medium;
+  color:#ff3f6c;
+}
+.buyButton{
+  cursor: pointer;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  background: rgb(159, 32, 137);
+  border: none;
+  padding: 12px;
+  width:60%;
+  margin-left:20%;;
+}
+.paymentContainer{
+  border:1px solid black;
+  width:50%;
+  margin:auto;
+  padding:5%;
+}
+.smallContainer{
+  width:40%;
+  padding:1%;
+  border: 1px solid black;;
+  margin:auto;
+
 }
 .App-logo {
   height: 40vmin;
