@@ -63,7 +63,9 @@ return (
                 <h4 className='names'>{item.brand}</h4>
                 <p className='names'>{item.name}</p>
                 <h4 className='names' style = {{color:'red'}}> RS:{item.price}</h4>
-                
+                <Link to = {`/Cart/${item.id}`}>
+                <button className="continueButton">ADD TO CART</button>
+                </Link>
                 </div>
             </div>
            
