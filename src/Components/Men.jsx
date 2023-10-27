@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { MenCardPage } from './MenCardPage'
+// import { Cart } from './Cart'
 
-function Men(){
+function Men({handleClick}){
     const [menData,setMenData] = React.useState([])
     // const [HighToLow,setHighToLow] = React.useState('--Select--')
 
@@ -41,6 +43,7 @@ function Men(){
        
         
     }
+
 return (
     <>
     <div>
@@ -57,17 +60,17 @@ return (
    
    {
         menData.map((item)=>(
-       <div className = "menContainerData"key = {item.id}>
-                <div className='content'>
-                <Link to = {`/Cart/${item.id}`}><img className='menPhoto' src = {item.image} alt = ""/></Link>
-                <h4 className='names'>{item.brand}</h4>
-                <p className='names'>{item.name}</p>
-                <h4 className='names' style = {{color:'red'}}> RS:{item.price}</h4>
-                <Link to = {`/Cart/${item.id}`}>
-                <button className="continueButton">ADD TO CART</button>
-                </Link>
-                </div>
-            </div>
+       <MenCardPage className = "menContainerData"key = {item.id} item = {item} handleClick = {handleClick}/>
+            //     {/* <div className='content'>
+            //     <Link to = {`/Cart/${item.id}`}><img className='menPhoto' src = {item.image} alt = ""/></Link>
+            //     <h4 className='names'>{item.brand}</h4>
+            //     <p className='names'>{item.name}</p>
+            //     <h4 className='names' style = {{color:'red'}}> RS:{item.price}</h4> */}
+            //     {/* <Link to = {`/Cart`}> */}
+            //     {/* <button className="continueButton" onClick={handleCart(item.id)}>ADD TO CART</button> */}
+            //     {/* </Link> */}
+            //     {/* </div> */}
+            // // </div>
            
         ))
         
