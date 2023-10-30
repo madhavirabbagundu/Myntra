@@ -1,9 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { WomenCardPage } from './WomenCardPage'
 
-function Women(){
+function Women({handleClick}){
     const [womenData,setwoMenData] = React.useState([])
-    // const [HighToLow,setHighToLow] = React.useState('--Select--')
 
 
     React.useEffect(()=>{
@@ -57,26 +56,16 @@ return (
  
  {                          
       womenData.map((item)=>(
-          <div className = "menContainerData"key = {item.id}>
-              <div className='content'>
-                <Link to = {`/WomenCart/${item.id}`}>
-              <img className='menPhoto' src = {item.image} alt = ""/></Link>
-              {/* <h4>{item.brand}</h4> */}
-              <p>{item.name}</p>
-              <h4 style = {{color:'red'}}>RS:{item.price}</h4>
-              <Link to = {`/WomenCart/${item.id}`}>
-                <button className="continueButton">ADD TO CART</button>
-                </Link>
-              </div>
-          </div>
-      ))
-      
+            
+        <WomenCardPage className = "menContainerData"key = {item.id} item = {item} handleClick = {handleClick}/>
 
-    }
+            ))
+            }
 
-  </div>
+    
+</div>
 
     </>
 )
-}
+ }
 export {Women}

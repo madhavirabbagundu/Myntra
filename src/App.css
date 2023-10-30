@@ -119,6 +119,18 @@ margin-top: 1%;;
   width:100%;
   /* border:none; */
 }
+.paymnetButton{
+  cursor: pointer;
+  background-color: #ff3f6c;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left:45%;
+  width:20%;
+}
 .continueButton1{
   cursor: pointer;
   background-color: #ff3f6c;
@@ -169,6 +181,9 @@ border-radius:2%;
   width:100%;
   border-radius: 5%;;
 }
+.cartPhoto{
+
+}
 .selectMenChategory{
   width:20%;
   margin-left:40%;
@@ -192,7 +207,10 @@ border-radius:2%;
 
 }
 .cartImg{
-  width:30%;
+  width:20%;
+  height:10%;
+  border:1px solid black;
+  border-radius: 3%;
   
 }
 .tableFom,td,tr,th{

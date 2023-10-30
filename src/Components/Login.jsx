@@ -26,7 +26,7 @@ function Login(){
       e.preventDefault()
       if(input.number.length === 10){
          alert("Login successfully")
-         navigate("/")
+         navigate("/Home")
         fetch(`http://localhost:3000/loginData`,{
             method:"POST",
             body:JSON.stringify(input),

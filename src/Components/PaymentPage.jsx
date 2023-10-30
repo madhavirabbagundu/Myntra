@@ -18,7 +18,7 @@ function PaymentPage() {
           console.log(payNum.number.length,"num")
           if(payNum.number.length === 10){
             alert("Your Order is Done !! Thank You")
-            navigate("/")
+            navigate("/Home")
           }
           else{
             alert("Please choose your number once again")
