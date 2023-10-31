@@ -12,6 +12,8 @@ function Men({handleClick}){
     },[])
     console.log(typeof(menData),"men")
 
+
+    
    
     const handleChangeHigh = (e)=>{
         console.log(e,menData,"data")
