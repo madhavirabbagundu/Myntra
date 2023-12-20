@@ -12,6 +12,7 @@ import { PaymentPage } from './Components/PaymentPage';
 // import { WomenCart } from './Components/WomenCart';
 import './App.css'
 import { MainCart } from './Components/MainCart';
+import { User } from './ReduxComponent/User';
 // import { WomenCardPage } from './Components/WomenCardPage';
 
 
@@ -32,7 +33,9 @@ function App() {
       <Route path = "/men" element = {<Men handleClick={handleClick}/>}>Men</Route>
       <Route path = "/Women" element = {<Women handleClick={handleClick}/>}>Women</Route>
       <Route path = "/Home" element = {<Home />}>Kids</Route>
-      <Route path = "/" element={<Login/>}></Route>
+     {/* <Route path = "/" element={<Login/>}></Route> */}
+      <Route path = "/" element={<User/>}></Route>
+
       {/* <Route path = "/cart" element = {<WomenCardPage handleClick={handleClick} cart = {cart} setCart={setCart}/>}></Route> */}
       <Route path = "/Cart" element = {<MainCart handleClick = {handleClick} cart = {cart} setCart = {setCart}/>}></Route>
       <Route path = "/Cart/:item" element={<Cart />}></Route>
